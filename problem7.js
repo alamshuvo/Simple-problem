@@ -3,5 +3,5 @@ const removeDuplicates = (numbers)=>{
     const uniqueNumbers = numbers.filter((num,index)=> numbers.indexOf(num) === index);
     return uniqueNumbers;
 }
-//  const num = [1,2,2,5,6,3,8,1,2]
-// console.log(removeDuplicates(num));
+ const num = [1,2,2,5,6,3,8,1,2]
+console.log(removeDuplicates(num));
