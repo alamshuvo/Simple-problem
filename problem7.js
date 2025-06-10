@@ -6,4 +6,4 @@ const removeDuplicates = (numbers)=>{
  const num = [1,2,2,5,6,3,8,1,2]
 console.log(removeDuplicates(num));
 //some comit added 
-// added some code 
+// added some code and code added 
