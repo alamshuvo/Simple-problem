@@ -1,12 +1,12 @@
 // -Write a function that searches an array of objects for a specific person by name. If found, modify their age property. Print the updated array.
 
-const updateAgeByName = (people, name, newAge) => {
-    const person = people.find(person=>person.name === name);
-    if(person){
-        person.age = newAge;
-    }
-    return people;
-}
+// const updateAgeByName = (people, name, newAge) => {
+//     const person = people.find(person=>person.name === name);
+//     if(person){
+//         person.age = newAge;
+//     }
+//     return people;
+// }
 
 // const people = [
 //     { name: "Alice", age: 25 },
@@ -15,3 +15,19 @@ const updateAgeByName = (people, name, newAge) => {
 //   ];
 //   const updatedPeople = updateAgeByName(people, "Bob", 45);
 // console.log(updatedPeople);
+
+// Write a function that searches an array of objects for a specific person by name. If found, modify their age property. Print the updated array. 
+
+const UpdateAgeByName =(people, name, newAge) => {
+    const person =people.find(person =>person.name === name);
+    if (person) {
+        person.age = newAge
+    }
+    console.log(people);
+}
+
+const people = [
+    { name: 'John', age: 25 },
+    { name: 'Jane', age: 22 },
+    { name: 'Alice', age: 30 } ];
+UpdateAgeByName(people,'John',555)
