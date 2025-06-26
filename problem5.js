@@ -34,3 +34,4 @@ const people = [
     { name: 'Alice', age: 30 } ];
 UpdateAgeByName(people,'john',555) 
 // some code added some code added some code added  some code added and some code added 
+// some code added 
