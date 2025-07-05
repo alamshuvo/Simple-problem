@@ -22,4 +22,4 @@ for (let index = 0; index < arr.length; index++) {
 const arr = [12,4,13];
 findSecondLargestNumber(arr);
 // some code addded some code added
-// some code added
+// some code added some code added 
