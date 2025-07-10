@@ -3,7 +3,7 @@ const removeDuplicates = (numbers)=>{
     const uniqueNumbers = numbers.filter((num,index)=> numbers.indexOf(num) === index);
     return uniqueNumbers;
 }
- const num = [1,2,2,5,6,3,8,1,2]
+ const num = [1,2,2,5,6,3,8,1,2,3,3]
 console.log(removeDuplicates(num));
 //some comit added 
 // added some code and code added 
