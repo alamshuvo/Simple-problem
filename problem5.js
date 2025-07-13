@@ -31,6 +31,10 @@ const UpdateAgeByName =(people, name, newAge) => {
 const people = [
     { name: 'John', age: 25 },
     { name: 'Jane', age: 22 },
-    { name: 'Alice', age: 30 } ];
-UpdateAgeByName(people,'john',555) 
+    { name: 'Alice', age: 30 },
+    { name: 'Tripty', age: 28 }];
+
+
+
+UpdateAgeByName(people,'Tripty',100) 
 // some code added 
